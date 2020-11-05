@@ -11,15 +11,16 @@ export const CategoryAdd = ({ setCategories }) => {
     e.preventDefault();
     if (inputValue.trim().length > 2) {
       setCategories((categories) => {
-        const find = categories.find((item) => item === inputValue);        
-        if (!find) {
-          setInputValue("");
+        const find = categories.find((item) => item === inputValue);  
+            
+        if (!find) {  
           return [inputValue, ...categories];
           // setCategories([...categories,`Hunter ${categories.length}`]); This way is also good
-        } else {            
+        } else {                      
             return categories;
         }
       });
+      setInputValue(""); 
       
     }
   };

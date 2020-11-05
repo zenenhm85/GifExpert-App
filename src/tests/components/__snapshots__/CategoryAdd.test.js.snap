@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests in CategoryAdd  should display the component correctly 1`] = `
+exports[`Tests in CategoryAdd should display the component correctly 1`] = `
 <form
   onSubmit={[Function]}
 >
