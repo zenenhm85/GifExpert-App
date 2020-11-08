@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { TodoApp } from "./components/Hooks/08-useReducer/TodoApp";
+import { MainApp } from "./components/Hooks/09-useContext/MainApp";
+
 import "./index.css";
 
 //Here de different functional components for render and view
 
+//import { TodoApp } from "./components/Hooks/08-useReducer/TodoApp";
 //import { Father } from "./components/Hooks/07-tarea-memo/Father";
 //import { CallbackHook } from "./components/Hooks/06-useMemo/CallbackHook";
 //import { Memorize } from "./components/Hooks/06-useMemo/MemoHook";
@@ -20,6 +22,6 @@ import "./index.css";
 //import {GifExpertApp} from './GifExpertApp';
 
 //ReactDOM.render(<GifExpertApp />, document.getElementById("root"));
-ReactDOM.render(<TodoApp />, document.getElementById("root"));
+ReactDOM.render(<MainApp />, document.getElementById("root"));
 
 
